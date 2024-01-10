@@ -1,0 +1,176 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+
+html,body {
+  width:100%;
+  height:100%;
+}
+/* Dproject Nav */
+
+
+.nav{
+    width: 100%;
+    height: 120px;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.nav h2{
+    color: #4175C0;
+}
+.nav h2 span{
+    color: #083A62;
+}
+.anchor {
+    display: flex;
+    gap: 20px;
+}
+.anchor a{
+    text-decoration: none;
+    color: #BABDBD;
+    font-size: 18px;
+    font-weight: 600;
+}
+.anchor .home{
+    color: #5286ca;
+}
+
+/* Dhero */
+
+
+.hero{
+    width: 100%;
+    height: 480px;
+    background-color: #EBF3FE;
+    padding: 160px 130px;
+}
+.hero h5{
+    color: #083A62;
+}
+.hero h1{
+    color: #4175C0;
+}
+.hero button{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #063969;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Contant p1 */
+
+    
+.contant-p1{
+    margin-top: 50px;
+}
+.cHead h1{
+    text-align:center;
+    color: #4175C0;
+}
+.mainContant{
+    width: 100%;
+    height: 70vh;
+    /* background-color: #4175C0; */
+    display: flex;
+}
+.mainContant #left{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(113, 105, 105); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContant #left img{
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    object-fit: cover;
+}
+.mainContant #right{
+    width: 50%;
+    height: 100%;
+    margin-left: -80px;
+    /* background-color: rgb(148, 139, 139); */
+    padding: 60px 50px;
+    padding-left: 10px;
+}
+#right h3{
+    color: #4175C0;
+}
+#right h5{
+    color: #063969;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+#right button{
+    background-color: #097ADC;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Contant p2 */
+
+#right1{
+    width: 50%;
+    height: 100%;
+    /* background-color: violet; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+#right1 img{
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    margin-right: 100px;
+    object-fit: fill;
+}
+#left1{
+    width: 50%;
+    height: 100%;
+    padding: 60px 50px;
+    padding-left: 128px;
+    padding-right: 0;
+    /* background-color: yellowgreen; */
+}
+#left1 h5{
+    color: #063969;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+#left1 h3{
+    color: #4175C0;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+#left1 button{
+    background-color: #097ADC;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#right1 img{
+    object-fit: cover;
+    object-position: 0 -50px;
+}

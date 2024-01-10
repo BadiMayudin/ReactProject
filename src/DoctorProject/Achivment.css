@@ -1,0 +1,83 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+
+html,body {
+  width:100%;
+  height:100%;
+}
+.achivment{
+    height: 450px;
+    width:57%;
+    /* background-color: rgb(160, 152, 146); */
+    margin-left: 43%;
+}
+.aHead{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.aHead i{
+    font-size: 40px;
+    color: #0E77CD;
+}
+.aMain{
+    width: 100%;
+    height: 90%;
+    /* background-color: saddlebrown; */
+    display: flex;
+    gap: 30px;
+}
+.aLeft{
+    width: 30%;
+    height: 100%;
+    /* background-color: turquoise; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.twotan{
+    margin-bottom: 70px;
+}
+.aLeft button{
+    display: flex   ;
+    width: 120px;
+    border: none;
+    padding: 7px 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7DB2E4;
+    font-size: 20px;
+    font-weight: 700;
+}
+.aMid{
+    width: 10%;
+    height: 100%;
+    /* background-color: sandybrown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #458cce;
+}
+.line{
+    width: 5px;
+    height: 145px;
+    background-color: #458cce;
+}
+.aRight{
+    width: 60%;
+    height: 100%;
+    /* background-color: salmon ; */
+    padding: 10px 40px;
+}
+.aRight p{
+    margin-bottom: 100px;
+}
